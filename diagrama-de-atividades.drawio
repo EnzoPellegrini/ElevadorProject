@@ -1,1 +1,399 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T22:03:10.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="mD5Kg-ntjoMQUy_EGuRh" type="github"><diagram id="pIHm_wDEjRHC6TNhpWKC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-22T23:53:13.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hNpJg4N7U9fHweiqnb0z" version="20.5.3" type="github">
+  <diagram id="pIHm_wDEjRHC6TNhpWKC" name="Página-1">
+    <mxGraphModel dx="3015" dy="2378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="-35" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#000000;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="_Efh-mWy3xt5_Q1pGpb5-1" parent="1" target="_Efh-mWy3xt5_Q1pGpb5-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="135" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-3" target="_Efh-mWy3xt5_Q1pGpb5-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-3" value="Passageiro seleciona andar na botoeira externa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="-50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-6" target="_Efh-mWy3xt5_Q1pGpb5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-6" value="Verifica se andar é vip" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-15" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-8" target="_Efh-mWy3xt5_Q1pGpb5-17">
+          <mxGeometry x="0.5046" relative="1" as="geometry">
+            <mxPoint x="390" y="690" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-17" target="_Efh-mWy3xt5_Q1pGpb5-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="876" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-17" value="Verifica status da camera" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="856" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-19" target="_Efh-mWy3xt5_Q1pGpb5-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-19" value="Chama reconhecimento facial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="856" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-21" target="_Efh-mWy3xt5_Q1pGpb5-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-24" value="pasageiro vip" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-22" target="_Efh-mWy3xt5_Q1pGpb5-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-22" target="_Efh-mWy3xt5_Q1pGpb5-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="770" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-27" value="passageiro não vip" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_Efh-mWy3xt5_Q1pGpb5-26">
+          <mxGeometry x="0.2889" y="-4" relative="1" as="geometry">
+            <mxPoint x="8" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-22" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="325" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-25" target="_Efh-mWy3xt5_Q1pGpb5-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-28" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="325" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-30" target="_Efh-mWy3xt5_Q1pGpb5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-30" value="Elevador não é direcionado ao andar selecionado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-32" target="_Efh-mWy3xt5_Q1pGpb5-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-32" value="Elevador direcionado ao andar do passageiro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-35" target="_Efh-mWy3xt5_Q1pGpb5-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-45" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-35" value="Passageiro embarca no elevador" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-37" target="_Efh-mWy3xt5_Q1pGpb5-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-37" value="Elevador abre as portas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-40" target="_Efh-mWy3xt5_Q1pGpb5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-40" value="Elevador é direcionado ao andar selecionado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-41" target="_Efh-mWy3xt5_Q1pGpb5-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-50" target="_Efh-mWy3xt5_Q1pGpb5-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-45" y="996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-50" value="Verifica sensor de carga" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-105" y="866" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-53" value="Peso não foi excedido" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-52" target="_Efh-mWy3xt5_Q1pGpb5-6">
+          <mxGeometry x="-0.5192" y="5" relative="1" as="geometry">
+            <mxPoint x="105" y="600" as="targetPoint" />
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-52" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=-90;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="95" y="856" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-56" target="_Efh-mWy3xt5_Q1pGpb5-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-63" target="_Efh-mWy3xt5_Q1pGpb5-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-63" value="display interno informa ultrapassagem de carga maxima" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-71" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-67" target="_Efh-mWy3xt5_Q1pGpb5-72">
+          <mxGeometry x="0.2795" relative="1" as="geometry">
+            <mxPoint x="1040" y="680" as="targetPoint" />
+            <mxPoint x="1040.4099999999999" y="460" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-72" target="_Efh-mWy3xt5_Q1pGpb5-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-72" value="Verifica status do sensor de carga" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="856" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-75" value="Carga continua excedido" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-73" target="_Efh-mWy3xt5_Q1pGpb5-72">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="936" />
+              <mxPoint x="1045" y="936" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-73" target="_Efh-mWy3xt5_Q1pGpb5-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1205" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-77" value="Carga dentro do permitido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_Efh-mWy3xt5_Q1pGpb5-76">
+          <mxGeometry x="-0.3461" relative="1" as="geometry">
+            <mxPoint y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-73" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=-90;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="846" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-83" target="_Efh-mWy3xt5_Q1pGpb5-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-83" value="Verifica status sensores de incendio e emergencia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="866" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-84" target="_Efh-mWy3xt5_Q1pGpb5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-87" value="Nenhum problema detectado" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_Efh-mWy3xt5_Q1pGpb5-86">
+          <mxGeometry x="-0.2384" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-84" target="_Efh-mWy3xt5_Q1pGpb5-91">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1770" y="757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-90" value="sensor de incêndio ativo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_Efh-mWy3xt5_Q1pGpb5-89">
+          <mxGeometry x="-0.2408" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-93" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_Efh-mWy3xt5_Q1pGpb5-84" target="_Efh-mWy3xt5_Q1pGpb5-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1505" y="960" />
+              <mxPoint x="1760" y="960" />
+              <mxPoint x="1760" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-112" value="sensor de emergencia ativo" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_Efh-mWy3xt5_Q1pGpb5-111">
+          <mxGeometry x="-0.1693" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-84" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=-90;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="1490" y="856" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-136" value="Passageiro" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="-100" width="3620" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-137" value="Sistema" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="50" width="3620" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-91" value="display interno exibe alerta de incendio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2370" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-94" value="Elevador verifica andar atual" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2580" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-91" target="_Efh-mWy3xt5_Q1pGpb5-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2555" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-96" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=-90;direction=south;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2760" y="320" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-94" target="_Efh-mWy3xt5_Q1pGpb5-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-98" value="Elevador continua com as portas abertas e com aviso ativo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2920" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-99" value="Se estiver&lt;br&gt;no terreo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-96" target="_Efh-mWy3xt5_Q1pGpb5-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-101" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="3140" y="345" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-98" target="_Efh-mWy3xt5_Q1pGpb5-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-104" value="Elevador é direcionado para o térreo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2830" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-103" value="Não estiver&lt;br&gt;no terreo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-96" target="_Efh-mWy3xt5_Q1pGpb5-104">
+          <mxGeometry x="-0.611" y="-5" relative="1" as="geometry">
+            <mxPoint x="2775" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2775" y="470" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-106" target="_Efh-mWy3xt5_Q1pGpb5-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-106" value="Elevador abre as portas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="3010" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-104" target="_Efh-mWy3xt5_Q1pGpb5-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-113" value="display interno exibe alerta de emergencia" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2520" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-116" value="Elevador é direcionado para o andar mais próximo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2690" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-113" target="_Efh-mWy3xt5_Q1pGpb5-116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-118" value="Elevador abre as portas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2870" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-116" target="_Efh-mWy3xt5_Q1pGpb5-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-121" value="Verifica se tem passageiros dentro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="3050" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-118" target="_Efh-mWy3xt5_Q1pGpb5-121">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3050" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-128" value="Sim" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-122" target="_Efh-mWy3xt5_Q1pGpb5-121">
+          <mxGeometry x="0.2223" relative="1" as="geometry">
+            <mxPoint x="3235" y="653" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-122" value="" style="rhombus;whiteSpace=wrap;html=1;rotation=-90;direction=south;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="3220" y="510" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-121" target="_Efh-mWy3xt5_Q1pGpb5-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-125" value="Elevador fecha as portas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="3350" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-124" value="Não" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-122" target="_Efh-mWy3xt5_Q1pGpb5-125">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3340" y="550.1578947368421" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-126" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="3540" y="535" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-125" target="_Efh-mWy3xt5_Q1pGpb5-126">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-56" value="Elevador é direcionado ao andar selecionado" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2050" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-58" value="Elevador indica no display os andares que irá parar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="1861" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-58" target="_Efh-mWy3xt5_Q1pGpb5-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-55" value="Elevador fecha as portas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="1670" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-55" target="_Efh-mWy3xt5_Q1pGpb5-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-25" value="Elevador fecha as portas" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="1885" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-41" value="Elevador indica no display os andares que irá parar" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="2185" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-8" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="1095" y="275" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-137" source="_Efh-mWy3xt5_Q1pGpb5-8" target="_Efh-mWy3xt5_Q1pGpb5-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1740" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1220" y="290" />
+              <mxPoint x="1220" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-47" value="Não" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_Efh-mWy3xt5_Q1pGpb5-46">
+          <mxGeometry x="-0.7374" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-21" value="Verifica retorno do reconhecimento facial" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="1295" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-67" value="Elevador dispara evento de carga máxima excedida" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="_Efh-mWy3xt5_Q1pGpb5-137">
+          <mxGeometry x="1695" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-139" value="Passageiro" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-740" y="660" width="3620" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="_Efh-mWy3xt5_Q1pGpb5-139" source="_Efh-mWy3xt5_Q1pGpb5-52" target="_Efh-mWy3xt5_Q1pGpb5-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="-260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="850" y="270" />
+              <mxPoint x="1580" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Efh-mWy3xt5_Q1pGpb5-62" value="Peso excedido" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_Efh-mWy3xt5_Q1pGpb5-61">
+          <mxGeometry x="0.5225" y="-1" relative="1" as="geometry">
+            <mxPoint x="-601" y="150" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
